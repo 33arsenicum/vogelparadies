@@ -145,21 +145,21 @@ button:focus { outline: none; }
 .cd-slider-nav .nav-item:nth-of-type(1).selected .nav-link,
 .cd-slider-nav .nav-item:nth-of-type(1) .nav-link:hover,
 .cd-slider-nav .nav-item:nth-of-type(1) .nav-link:focus {	
-	background-color: #38b6e6;
+	background-color: #000000;
 }
 
 .cd-slider-nav .nav-item:nth-of-type(2).selected .nav-link,
 .cd-slider-nav .nav-item:nth-of-type(2) .nav-link:hover,
 .cd-slider-nav .nav-item:nth-of-type(2) .nav-link:focus {
 			
-	background-color: #ed544c;
+	background-color: #DD0000;
 }
 
 .cd-slider-nav .nav-item:nth-of-type(3).selected .nav-link,
 .cd-slider-nav .nav-item:nth-of-type(3) .nav-link:hover,
 .cd-slider-nav .nav-item:nth-of-type(3) .nav-link:focus {
 		
-	background-color: #eaa319;	
+	background-color: #FFCC00;	
 }
 
 .cd-slider-nav .nav-item:nth-of-type(4).selected .nav-link,
@@ -883,4 +883,8 @@ figure.effect-bubba:hover p {
 .navbar-brand.text-uppercase img {
 	height: 100%;
 	padding: 5px;
+}
+
+.navbar {
+	box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 6px 10px 0px rgba(0, 0, 0, 0.14), 0px 1px 18px 0px rgba(0, 0, 0, 0.12);
 }
